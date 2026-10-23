@@ -23,13 +23,15 @@ function hideError() {
 
 function badgeFor(source) {
   if (source === "verified_phrase") return "✓ Verified phrase";
+  if (source === "cloudflare") return "⚡ IndicTrans2 (Cloudflare)";
+  if (source === "llm") return "🤖 AI-translated (LLM)";
   if (source === "api") return "⚡ AI-translated";
   return "⚠ Fallback — not verified";
 }
 
 function badgeClass(source) {
   if (source === "verified_phrase") return "source-badge verified";
-  if (source === "api") return "source-badge";
+  if (source === "cloudflare" || source === "llm" || source === "api") return "source-badge";
   return "source-badge fallback";
 }
 
