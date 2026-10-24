@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practice — KannadaSetu AI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">KannadaSetu <span class="accent">AI</span></h1>
+      <p class="tagline">Speak &amp; Practice</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Practice a Kannada phrase</h2>
+      <label>
+        Kannada phrase:
+        <input type="text" id="reference" value="ನಮಸ್ಕಾರ" />
+      </label>
+      <button id="listen-btn" class="btn-secondary">🔊 Listen</button>
+
+      <hr />
+
+      <label>
+        Your spoken attempt (type or use voice input below):
+        <textarea id="spoken" rows="2" placeholder="Type what you said, or use mic"></textarea>
+      </label>
+      <button id="mic-btn" class="btn-secondary">🎤 Record</button>
+      <button id="compare-btn" class="btn-primary">Compare</button>
+
+      <div id="compare-result" class="compare-result hidden"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><a href="/">← Back to translate</a></p>
+    </div>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/practice.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KannadaSetu AI — Understand Kannada. Navigate life.</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">KannadaSetu <span class="accent">AI</span></h1>
+      <p class="tagline">Understand Kannada. Navigate life. Connect with people.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>What do you want to say?</h2>
+
+      <div class="controls">
+        <label>
+          Language:
+          <select id="source-lang">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+          </select>
+        </label>
+
+        <label>
+          Situation:
+          <select id="situation">
+            <option value="general">General</option>
+            <option value="bus_stand">Bus Stand</option>
+            <option value="railway_station">Railway Station</option>
+            <option value="hospital">Hospital</option>
+            <option value="market">Market</option>
+            <option value="college">College</option>
+            <option value="workplace">Workplace</option>
+          </select>
+        </label>
+      </div>
+
+      <textarea id="input-text" rows="3" placeholder="e.g. I need to go to the railway station."></textarea>
+
+      <button id="translate-btn" class="btn-primary">Translate to Kannada</button>
+      <div id="error" class="error hidden"></div>
+    </section>
+
+    <section id="result-card" class="card hidden">
+      <h2>Kannada</h2>
+      <div class="kannada-text" id="kannada-text"></div>
+      <div class="transliteration" id="transliteration"></div>
+      <div class="meaning" id="meaning"></div>
+      <div class="source-badge" id="source-badge"></div>
+
+      <div class="actions">
+        <button id="play-btn" class="btn-secondary">🔊 Play</button>
+        <button id="copy-btn" class="btn-secondary">📋 Copy</button>
+      </div>
+
+      <h3>Follow-up phrases</h3>
+      <ul class="follow-ups" id="follow-ups"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>KannadaSetu AI · Built for Kannada Technology Challenge · <a href="/practice">Practice mode</a></p>
+    </div>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

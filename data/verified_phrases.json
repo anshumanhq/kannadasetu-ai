@@ -1,0 +1,258 @@
+[
+  {
+    "id": "gen01",
+    "situation": "general",
+    "english": "Hello",
+    "hindi": "नमस्ते",
+    "kannada": "ನಮಸ್ಕಾರ",
+    "transliteration": "Namaskara"
+  },
+  {
+    "id": "gen02",
+    "situation": "general",
+    "english": "Thank you",
+    "hindi": "धन्यवाद",
+    "kannada": "ಧನ್ಯವಾದಗಳು",
+    "transliteration": "Dhanyavaadagalu"
+  },
+  {
+    "id": "gen03",
+    "situation": "general",
+    "english": "Please",
+    "hindi": "कृपया",
+    "kannada": "ದಯವಿಟ್ಟು",
+    "transliteration": "Dayavittu"
+  },
+  {
+    "id": "gen04",
+    "situation": "general",
+    "english": "Sorry",
+    "hindi": "माफ़ कीजिए",
+    "kannada": "ಕ್ಷಮಿಸಿ",
+    "transliteration": "Kshamisi"
+  },
+  {
+    "id": "gen05",
+    "situation": "general",
+    "english": "How are you?",
+    "hindi": "आप कैसे हैं?",
+    "kannada": "ಹೇಗಿದ್ದೀರಿ?",
+    "transliteration": "Hegiddiri?"
+  },
+  {
+    "id": "gen06",
+    "situation": "general",
+    "english": "I am fine",
+    "hindi": "मैं ठीक हूँ",
+    "kannada": "ನಾನು ಚೆನ್ನಾಗಿದ್ದೀನಿ",
+    "transliteration": "Naanu chennagiddini"
+  },
+  {
+    "id": "gen07",
+    "situation": "general",
+    "english": "Please help me",
+    "hindi": "कृपया मेरी मदद करें",
+    "kannada": "ದಯವಿಟ್ಟು ಸಹಾಯ ಮಾಡಿ",
+    "transliteration": "Dayavittu sahaaya maadi"
+  },
+  {
+    "id": "gen08",
+    "situation": "general",
+    "english": "I don't understand Kannada",
+    "hindi": "मुझे कन्नड़ नहीं आती",
+    "kannada": "ನನಗೆ ಕನ್ನಡ ಗೊತ್ತಿಲ್ಲ",
+    "transliteration": "Nanage Kannada gottilla"
+  },
+  {
+    "id": "bus01",
+    "situation": "bus_stand",
+    "english": "I need to go to the railway station.",
+    "hindi": "मुझे रेलवे स्टेशन जाना है।",
+    "kannada": "ನಾನು ರೈಲ್ವೆ ನಿಲ್ದಾಣಕ್ಕೆ ಹೋಗಬೇಕು.",
+    "transliteration": "Naanu railway nildaanakke hogabeku."
+  },
+  {
+    "id": "bus02",
+    "situation": "bus_stand",
+    "english": "How much is the ticket?",
+    "hindi": "टिकट कितने का है?",
+    "kannada": "ಟಿಕೆಟ್ ಎಷ್ಟು?",
+    "transliteration": "Ticket eshtu?"
+  },
+  {
+    "id": "bus03",
+    "situation": "bus_stand",
+    "english": "Where is the bus stand?",
+    "hindi": "बस स्टैंड कहाँ है?",
+    "kannada": "ಬಸ್ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?",
+    "transliteration": "Bus nildaana ellide?"
+  },
+  {
+    "id": "bus04",
+    "situation": "bus_stand",
+    "english": "Which bus goes to the market?",
+    "hindi": "बाज़ार कौन सी बस जाती है?",
+    "kannada": "ಮಾರುಕಟ್ಟೆಗೆ ಯಾವ ಬಸ್ ಹೋಗುತ್ತದೆ?",
+    "transliteration": "Maarukattege yaava bus hoguttade?"
+  },
+  {
+    "id": "bus05",
+    "situation": "bus_stand",
+    "english": "Please stop the bus here.",
+    "hindi": "कृपया बस यहाँ रोकें।",
+    "kannada": "ದಯವಿಟ್ಟು ಬಸ್ ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ.",
+    "transliteration": "Dayavittu bus illi nillisi."
+  },
+  {
+    "id": "rail01",
+    "situation": "railway_station",
+    "english": "Where is the railway station?",
+    "hindi": "रेलवे स्टेशन कहाँ है?",
+    "kannada": "ರೈಲ್ವೆ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?",
+    "transliteration": "Railway nildaana ellide?"
+  },
+  {
+    "id": "rail02",
+    "situation": "railway_station",
+    "english": "Which platform?",
+    "hindi": "कौन सा प्लेटफ़ॉर्म?",
+    "kannada": "ಯಾವ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್?",
+    "transliteration": "Yaava platform?"
+  },
+  {
+    "id": "rail03",
+    "situation": "railway_station",
+    "english": "When is the next train?",
+    "hindi": "अगली ट्रेन कब है?",
+    "kannada": "ಮುಂದಿನ ರೈಲು ಯಾವಾಗ?",
+    "transliteration": "Mundina railu yaavaaga?"
+  },
+  {
+    "id": "rail04",
+    "situation": "railway_station",
+    "english": "Where is the ticket counter?",
+    "hindi": "टिकट काउंटर कहाँ है?",
+    "kannada": "ಟಿಕೆಟ್ ಕೌಂಟರ್ ಎಲ್ಲಿದೆ?",
+    "transliteration": "Ticket counter ellide?"
+  },
+  {
+    "id": "hosp01",
+    "situation": "hospital",
+    "english": "Where is the doctor?",
+    "hindi": "डॉक्टर कहाँ हैं?",
+    "kannada": "ವೈದ್ಯರು ಎಲ್ಲಿದ್ದಾರೆ?",
+    "transliteration": "Vaidyaru elliddare?"
+  },
+  {
+    "id": "hosp02",
+    "situation": "hospital",
+    "english": "I have a headache.",
+    "hindi": "मेरे सिर में दर्द है।",
+    "kannada": "ನನಗೆ ತಲೆನೋವು ಇದೆ.",
+    "transliteration": "Nanage talenovu ide."
+  },
+  {
+    "id": "hosp03",
+    "situation": "hospital",
+    "english": "I need a doctor.",
+    "hindi": "मुझे डॉक्टर की ज़रूरत है।",
+    "kannada": "ನನಗೆ ವೈದ್ಯರು ಬೇಕು.",
+    "transliteration": "Nanage vaidyaru beku."
+  },
+  {
+    "id": "hosp04",
+    "situation": "hospital",
+    "english": "Where is the pharmacy?",
+    "hindi": "दवा की दुकान कहाँ है?",
+    "kannada": "ಔಷಧಿ ಅಂಗಡಿ ಎಲ್ಲಿದೆ?",
+    "transliteration": "Aushadhi angadi ellide?"
+  },
+  {
+    "id": "hosp05",
+    "situation": "hospital",
+    "english": "It hurts here.",
+    "hindi": "यहाँ दर्द है।",
+    "kannada": "ಇಲ್ಲಿ ನೋವು ಇದೆ.",
+    "transliteration": "Illi novu ide."
+  },
+  {
+    "id": "mkt01",
+    "situation": "market",
+    "english": "How much does this cost?",
+    "hindi": "इसकी कीमत कितनी है?",
+    "kannada": "ಇದರ ಬೆಲೆ ಎಷ್ಟು?",
+    "transliteration": "Idara bele eshtu?"
+  },
+  {
+    "id": "mkt02",
+    "situation": "market",
+    "english": "Please reduce the price a little.",
+    "hindi": "कृपया थोड़ा कम कीजिए।",
+    "kannada": "ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ.",
+    "transliteration": "Svalpa kadime maadi."
+  },
+  {
+    "id": "mkt03",
+    "situation": "market",
+    "english": "Give me one kilo.",
+    "hindi": "एक किलो दीजिए।",
+    "kannada": "ಒಂದು ಕಿಲೋ ಕೊಡಿ.",
+    "transliteration": "Ondu kilo kodi."
+  },
+  {
+    "id": "mkt04",
+    "situation": "market",
+    "english": "Is this fresh?",
+    "hindi": "क्या यह ताज़ा है?",
+    "kannada": "ಇದು ತಾಜಾ ಆಗಿದೆಯೇ?",
+    "transliteration": "Idu taaja aagideye?"
+  },
+  {
+    "id": "col01",
+    "situation": "college",
+    "english": "Where is the admission office?",
+    "hindi": "प्रवेश कार्यालय कहाँ है?",
+    "kannada": "ಪ್ರವೇಶ ಕಚೇರಿ ಎಲ್ಲಿದೆ?",
+    "transliteration": "Pravesha kachere ellide?"
+  },
+  {
+    "id": "col02",
+    "situation": "college",
+    "english": "What is the fee structure?",
+    "hindi": "फ़ीस की संरचना क्या है?",
+    "kannada": "ಶುಲ್ಕ ರಚನೆ ಏನು?",
+    "transliteration": "Shulka rachane enu?"
+  },
+  {
+    "id": "col03",
+    "situation": "college",
+    "english": "When do classes start?",
+    "hindi": "कक्षाएँ कब शुरू होती हैं?",
+    "kannada": "ತರಗತಿಗಳು ಯಾವಾಗ ಪ್ರಾರಂಭ?",
+    "transliteration": "Taragatigalu yaavaaga praarambha?"
+  },
+  {
+    "id": "wrk01",
+    "situation": "workplace",
+    "english": "Where is the meeting?",
+    "hindi": "बैठक कहाँ है?",
+    "kannada": "ಸಭೆ ಎಲ್ಲಿದೆ?",
+    "transliteration": "Sabhe ellide?"
+  },
+  {
+    "id": "wrk02",
+    "situation": "workplace",
+    "english": "Can we talk tomorrow?",
+    "hindi": "क्या हम कल बात कर सकते हैं?",
+    "kannada": "ನಾಳೆ ಮಾತನಾಡಬಹುದೇ?",
+    "transliteration": "Naale maatanaadabahude?"
+  },
+  {
+    "id": "wrk03",
+    "situation": "workplace",
+    "english": "Please send the file.",
+    "hindi": "कृपया फ़ाइल भेजें।",
+    "kannada": "ದಯವಿಟ್ಟು ಫೈಲ್ ಕಳುಹಿಸಿ.",
+    "transliteration": "Dayavittu file kaluhisi."
+  }
+]
